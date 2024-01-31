@@ -1,0 +1,339 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+.box-text {    padding: 14px;
+}
+.lienhenew .col-inner{background-color: #fed03f!important;}
+.box-text p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.lienhenew .wpcf7 label {
+    display: inline-block;
+    width: 50%;
+    padding-right: 10px;
+    float: left;
+}
+
+.lienhenew  .wpcf7-submit{
+    background-color: #321702 !important;
+    display: inline-block;
+    width: 140px;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-top: -5px;
+    display: block;
+    margin: auto;
+    /* margin-bottom: 10px; */
+}
+
+
+.stylenew .col-inner ul li {
+    margin-left: 0em;
+    padding: 1.6rem 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stylenew .col-inner ul li:nth-child(2n+1) {
+    background-color: #f1f1f1;
+}
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.header .flex-row {
+    height: 100%;
+    padding: 0.625rem 6.25%;
+}
+.nav-left {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center !important;
+}
+
+.block-area__heading {
+    font-size: 2.625rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2.625rem;
+	    font-family: "Helvetica Neue";
+}
+.block-area__heading span {
+    color: #d57e00;
+    font-weight: 300;
+}
+
+.nav-spacing-xlarge>li {
+    margin: 0 13px;
+    margin-right: 2.0rem;
+}
+
+.nav-dropdown>li.nav-dropdown-col{display:block}
+.nav-dropdown{border:1px solid #ddd; padding:0}
+.nav-dropdown .nav-dropdown-col>a, .nav-dropdown li a{font-weight:normal !important; text-transform:none !important;font-size:15px; font-weight:500}
+.nav-dropdown .nav-dropdown-col>ul li:hover{background:#db0000}
+.nav-dropdown-default>li:hover>a, .nav-dropdown .nav-dropdown-col>ul li:hover>a{color:white}
+.nav-dropdown-default>li:hover{background:#fed03f}
+.nav-dropdown-default>li>a{border-bottom:0 !important}.nav-dropdown-has-arrow li.has-dropdown:before{border-width: 10px;
+    margin-left: -10px;}
+.nav-dropdown .nav-dropdown-col>ul{border: 1px solid #d2d2d2;margin-top:-40px;box-shadow: 2px 2px 5px #828282;display:none;position: absolute;
+    left: 100%;z-index: 9;background: white;min-width: 240px;}
+.nav-dropdown>li.nav-dropdown-col{width:100%;border-right:0}
+.nav-dropdown .nav-dropdown-col>ul li a{padding:10px;  text-transform: none;color:black}
+.header-nav li.nav-dropdown-col:hover >ul{display:block !important}
+
+
+.decor-line::before, .decor-line::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 1px;
+    background-color: #fed03f;
+}
+.decor-line::after {
+    top: auto;
+    bottom: 0;
+}
+.decor-line {
+    border: 1px solid #fed03f;
+    border-left: none;
+    height: 60%;
+    align-items: center;
+    display: flex;
+}
+
+.banner h4 { 
+
+    text-transform: uppercase;
+}
+
+.sanpham .box {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+}
+
+.blog-wrapper .box {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+}
+
+#proposal.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+#proposal {
+    width: auto;
+    height: auto;
+    background: none;
+    right: 0 !important;
+    bottom: 0 !important;
+    top: auto;
+    border-radius: 0;
+    transform-origin: right bottom !important;
+}
+#proposal {
+  position: fixed;
+  content: "";
+top: 85%;
+  z-index: 999;
+}
+
+ .iconphone {
+            text-align: center;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            position: fixed;
+            left: 15px !important;
+            z-index: 9999;
+            background-color: #0db55a;
+            color: #ffffff;
+            bottom: 15px !important;
+            transform-origin: left bottom !important;
+        }
+
+        .iconphone .scale {
+            border-radius: 50%;
+            background-color: rgba(13, 181, 90, 0.7);
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            -o-animation: scale-multiple 1.5s 0s linear infinite;
+            -moz-animation: scale-multiple 1.5s 0s linear infinite;
+            -webkit-animation: scale-multiple 1.5s 0s linear infinite;
+            animation: scale-multiple 1.5s 0s linear infinite;
+        }
+
+        .iconphone .scale:nth-child(2) {
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+        }
+
+        .iconphone .scale:nth-child(3) {
+            background-color: transparent;
+            border: 1px solid #0db55a;
+            -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+            -o-animation: scale-multiple1 1.5s 0s linear infinite;
+            -moz-animation: scale-multiple1 1.5s 0s linear infinite;
+            -webkit-animation: scale-multiple1 1.5s 0s linear infinite;
+            animation: scale-multiple1 1.5s 0s linear infinite;
+        }
+
+        .iconphone a {
+            font-size: 2.5rem;
+            line-height: 4rem;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            color: #fff;
+        }
+
+        .iconphone a svg {
+            transform: rotate(-45deg);
+        }
+
+        @-webkit-keyframes scale-multiple {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                opacity: 0;
+            }
+            5% {
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+                opacity: 0;
+            }
+        }
+
+        @keyframes  scale-multiple {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                opacity: 0;
+            }
+            5% {
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes scale-multiple1 {
+            0% {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+                opacity: 0;
+            }
+            5% {
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: scale(1.6);
+                transform: scale(1.6);
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes scale-multiple1 {
+            0% {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+                opacity: 0;
+            }
+            5% {
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: scale(1.6);
+                transform: scale(1.6);
+                opacity: 0;
+            }
+        }
+
+        @keyframes  scale-multiple1 {
+            0% {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+                opacity: 0;
+            }
+            5% {
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: scale(1.6);
+                transform: scale(1.6);
+                opacity: 0;
+            }
+        }
+
+
+
+.svg-inline--fa.fa-w-12 {
+    width: 0.75em;
+}
+
+
+.header-block-block-1 {
+    margin-bottom: 0;
+    color: #ef972d;
+}
+
+.product-gallery {
+    display: none;
+}
+.product-main h1 {
+    color: #fed03f;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+.text-box h2 {
+    font-size: 25px;
+}
+
+}
